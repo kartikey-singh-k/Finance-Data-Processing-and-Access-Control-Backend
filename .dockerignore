@@ -1,0 +1,18 @@
+# Docker
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Multi-stage build example
+FROM node:18-alpine AS build
+WORKDIR /app
+COPY package*.json ./
+RUN npm ci
+COPY . .
+
+FROM node:18-alpine
+WORKDIR /app
+COPY --from=build /app .
+RUN mkdir -p logs
+EXPOSE 3000
+CMD ["node", "src/server.js"]
