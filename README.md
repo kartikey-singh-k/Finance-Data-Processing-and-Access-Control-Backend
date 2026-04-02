@@ -139,19 +139,4 @@ LOG_LEVEL=info
 
 See `.env.example` for complete configuration.
 
-## 👤 Author
 
-**Your Name**
-- Portfolio: [your-portfolio.com](https://your-portfolio.com)
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your Name](https://linkedin.com/in/yourprofile)
-
-## 📄 License
-
-MIT License - feel free to use this project for learning and portfolio purposes.
-
----
-
-**Note**: This is a portfolio/learning project demonstrating production-ready Node.js API development practices including security, testing, documentation, and deployment configurations.
-
-For detailed information, see [COMPREHENSIVE_README.md](COMPREHENSIVE_README.md)
