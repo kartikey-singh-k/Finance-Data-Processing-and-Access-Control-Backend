@@ -37,7 +37,7 @@ A robust and scalable REST API for personal finance management built with Node.j
 
 1. **Clone the repository**
    ```bash
-   git clone [https://github.com/yourusername/finance-backend.git](https://github.com/kartikey-singh-k/Finance-Data-Processing-and-Access-Control-Backend.git)
+   git clone https://github.com/kartikey-singh-k/Finance-Data-Processing-and-Access-Control-Backend.git
    cd finance-backend
    ```
 
